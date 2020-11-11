@@ -1,0 +1,23 @@
+.primary {
+    background-color: rgb(15, 135, 227);
+}
+
+.primary--text {
+    color: rgb(15, 135, 227);
+}
+
+.danger {
+    background-color: rgb(255, 124, 124);
+}
+
+.danger--text {
+    color: rgb(255, 124, 124);
+}
+
+.light {
+    background-color: rgb(255, 255, 255);
+}
+
+.light--text {
+    color: rgb(255, 255, 255);
+}

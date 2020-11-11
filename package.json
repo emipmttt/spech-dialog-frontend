@@ -1,0 +1,8 @@
+{
+  "name": "monster-app",
+  "version": "1.0.0",
+  "description": "Talk to a Monster, and he answer you",
+  "main": "src/index.html",
+  "author": "emipmttt@gmail.com",
+  "license": "ISC"
+}
