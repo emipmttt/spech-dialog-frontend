@@ -108,7 +108,7 @@ function createDownloadLink(blob) {
             'Content-Type': 'multipart/form-data'
         }
     }).then(response => {
-        const audioPath = 'http:/localhost:3000/' + response.data.data.replace(/storage/g, "")
+        const audioPath = 'https://speech-dialog.herokuapp.com/' + response.data.data.replace(/storage/g, "")
         console.log(audioPath);
         var audio = new Audio(audioPath);
         audio.play();
