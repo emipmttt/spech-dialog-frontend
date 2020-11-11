@@ -103,7 +103,7 @@ function createDownloadLink(blob) {
     var bodyFormData = new FormData();
     bodyFormData.append('voice', blob);
 
-    axios.post("http://localhost:3000/voice", bodyFormData, {
+    axios.post("https://speech-dialog.herokuapp.com/voice", bodyFormData, {
         headers: {
             'Content-Type': 'multipart/form-data'
         }
