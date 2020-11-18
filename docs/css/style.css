@@ -5,6 +5,7 @@ main {
     height: 100vh;
     align-items: center;
     justify-content: center;
+    padding: 10%;
 }
 
 button {
@@ -16,4 +17,43 @@ button {
 
 .text-center {
     text-align: center;
+    width: 60%;
+}
+
+@media (max-width:1000px) {
+
+    .text-center {
+        text-align: center;
+        width: 90%;
+    }
+
+}
+
+.searchbar {
+    width: 100%;
+    padding: 10px 30px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0px 1px 5px rgba(0, 0, 0, .5);
+}
+
+
+.button-container {
+    display: flex;
+    margin-top: 10px;
+}
+
+.btn {
+    padding: 10px 30px;
+    box-shadow: 0px 1px 5px rgba(0, 0, 0, .5);
+    width: 100%;
+    margin: 5px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo {
+    width: 200px;
 }

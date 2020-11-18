@@ -34,7 +34,7 @@ function startRecording() {
 	*/
 
     recordButton.style.display = "none";
-    stopButton.style.display = "initial";
+    stopButton.style.display = "flex";
 
     /*
     	We're using the standard promise based getUserMedia() 
@@ -75,7 +75,7 @@ function startRecording() {
 
     }).catch(function (err) {
         //enable the record button if getUserMedia() fails
-        recordButton.style.display = "initial";
+        recordButton.style.display = "flex";
         stopButton.style.display = "none";
     });
 }
@@ -84,7 +84,7 @@ function stopRecording() {
     console.log("stopButton clicked");
 
     //disable the stop button, enable the record too allow for new recordings
-    recordButton.style.display = "initial";
+    recordButton.style.display = "flex";
     stopButton.style.display = "none";
 
     //tell the recorder to stop the recording
